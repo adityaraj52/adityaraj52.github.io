@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    background: #ffffff; /* white */
+    color: #788d9f; /* grey */
+    font: 13px Verdana, Arial, Helvetica, sans-serif;
+}
+th {
+    padding: 0px 10px;
+    vertical-align: top;
+    text-align: right;
+    white-space:nowrap;
+    /* background: #eeee00; */
+}
+a {
+    color: #788d9f; /* grey */
+    text-decoration: none;
+}
+a:hover {
+    color: #788d9f; /* grey */
+    text-decoration: underline;
+}
+p {
+    margin: 0px;
+    padding: 5px 25px 10px;
+    line-height: 15px;
+    font-weight: normal;
+    text-align: justify;
+}
+ul {
+    margin: 10px;
+}
+li {
+    color: #008c4f; /* tucgreen */
+}
+img {
+    padding: 0px 15px;
+    border-width: 0;
+}
+.img_centered {
+    margin: 0;
+    padding: 0;
+    color: #993333; /*blenheimred*/
+    text-align: center;
+}
+.clearthis {
+    clear: both;
+    float: none;
+    color: #ffffff; /* white */
+    font-size: 1px;
+}
+#pane {
+    width: 800px;
+    padding: 0;
+    margin: 10px auto;
+}
+.wide_pane {
+    float: right;
+    width: 500px;
+    margin: 0px;
+    padding: 10px 0px;
+    background: #ffffff; /* white */
+    border-left: 1px solid #008c4f; /* tucgreen */
+}
+#slim_pane {
+    float: left;
+    width: 299px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.section_title {
+    margin: 5px auto 10px;
+    padding: 0px 10px;
+    background: #008c4f; /* tucgreen */
+    color: #ffffff; /* white */
+    font-variant: small-caps;
+    font-weight: normal;
+}
+.wide_pane .section_title {
+    width: 480px;
+    line-height: 25px;
+    font-size: 14px;
+}
+#slim_pane .section_title {
+    width: 279px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.wide_pane .subsection_title {
+    width: 480px;
+    margin: 5px auto;
+    padding: 0px 10px;
+    color: #993333; /*blenheimred*/
+    font-size: 12px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+#who h1 {
+    display: block;
+    margin: 0;
+    padding: 0px 25px;
+    color: #008c4f; /* tucgreen */
+    font-size: 22pt;
+    font-weight: normal;
+}
+#who h2 {
+    display: block;
+    margin: 0;
+    padding: 0px 25px;
+    color: #788D9F; /* grey */
+    font-size: 12pt;
+    font-weight: normal;
+}
+#menu {
+    float: left;
+    padding: 10px 20px;
+}
+#menu ul {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+#menu li {
+    list-style: none;
+    margin: 0;
+    border-bottom: 1px solid #ececec; /* lightgrey */
+}
+#menu a {
+    display: block;
+    width: 220px;
+    padding: 0px 5px;
+    background: #ffffff; /* white */
+    color: #788D9F; /* grey */
+    font-size: 9pt;
+    text-decoration: none;
+}
+#menu a:hover {
+    background: #c3d3e2;
+    color: #ffffff; /* white */
+}
+#menu ul a#current {
+    background: #993333; /* blenheimred */
+    color: #ffffff; /* white */
+}
+.link a {
+    background: transparent url(img/link.gif) right no-repeat;
+    padding-right: 13px;
+    color: #C9CA6D;
+    text-decoration: none;
+}
+.link a:hover {
+    background: transparent url(img/link.gif) right no-repeat;
+    padding-right: 13px;
+    color: #757678;
+    text-decoration: underline;
+}
