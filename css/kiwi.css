@@ -76,7 +76,7 @@ img {
     margin: 0px;
     padding: 10px 0px;
     background: #ffffff; /* white */
-    border-left: 1px solid #008c4f; /* tucgreen */
+    border-left: 1px solid #ececec;
 }
 #slim_pane {
     float: left;
