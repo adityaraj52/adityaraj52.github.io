@@ -11,10 +11,11 @@ th {
     vertical-align: top;
     text-align: right;
     white-space:nowrap;
+    font-weight: 400;
     /* background: #eeee00; */
 }
 a {
-    color: #788d9f; /* grey */
+    color: #2c328e; /* grey */
     text-decoration: none;
 }
 a:hover {
@@ -30,9 +31,6 @@ p {
 }
 ul {
     margin: 10px;
-}
-li {
-    color: #008c4f; /* tucgreen */
 }
 img {
     padding: 0px 15px;
@@ -72,7 +70,7 @@ img {
 .section_title {
     margin: 5px auto 10px;
     padding: 0px 10px;
-    background: #008c4f; /* tucgreen */
+    background: #6a736f;
     color: #ffffff; /* white */
     font-variant: small-caps;
     font-weight: normal;
