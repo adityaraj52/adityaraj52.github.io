@@ -7,6 +7,10 @@ html, body {
     font: 13px Verdana, Arial, Helvetica, sans-serif;
 }
 
+#list_department{
+    font-size: 12px;
+}
+
 /*#aussen, #aussen-wide {*/
     /*position: relative;*/
     /*margin: auto;*/
