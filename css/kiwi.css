@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     cursor: default;
     background: #ffffff; /* white */
+    background-image: url("../resources/background.jpg");
     font: 13px Verdana, Arial, Helvetica, sans-serif;
 }
 
