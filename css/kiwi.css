@@ -5,6 +5,24 @@ html, body {
     background: #ffffff; /* white */
     font: 13px Verdana, Arial, Helvetica, sans-serif;
 }
+
+/*#aussen, #aussen-wide {*/
+    /*position: relative;*/
+    /*margin: auto;*/
+    /*width: 980px;*/
+/*}*/
+
+/*#innen {*/
+    /*position: relative;*/
+    /*width: 980px;*/
+    /*background-color: white;*/
+    /*font: 82% Verdana, Lucida, sans-serif;*/
+    /*-webkit-box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);*/
+    /*-moz-box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);*/
+    /*box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);*/
+    /*z-index: 6;*/
+/*}*/
+
 th {
     padding: 0px 10px;
     vertical-align: top;
@@ -152,3 +170,16 @@ img {
     color: #757678;
     text-decoration: underline;
 }
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #361212;
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #ffffff;
+}
+
+
