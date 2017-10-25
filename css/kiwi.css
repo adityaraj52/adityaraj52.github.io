@@ -82,12 +82,13 @@ img {
     padding: 10px 0px;
     background: #ffffff; /* white */
     border-left: 1px solid #361212;
-    height: 827px;
+    height: 800px;
     border-right: 1px solid #361212;
 }
 #slim_pane {
     float: left;
     width: 299px;
+    height: 800px;
     margin: 0px;
     padding: 10px 0px;
     border-left: 1px solid #361212;
