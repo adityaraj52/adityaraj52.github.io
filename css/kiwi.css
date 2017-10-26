@@ -232,3 +232,7 @@ img {
     text-align: center;
 }
 
+.dropdown-menu > li > a {
+    color: #af1c1c;
+}
+
