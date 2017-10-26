@@ -195,7 +195,7 @@ img {
     background-color: oldlace;
     border-color: #361212;
     border: 1px solid;
-    height: 700px;
+    height: 800px;
 }
 
 #publication_header{
@@ -224,7 +224,7 @@ img {
 }
 
 #publication_abstract img{
-    height: 240px;
+    height: 330px;
     text-align: center;
 }
 
