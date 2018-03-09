@@ -56,21 +56,28 @@
                 <p>
                     <h3>Abstract</h3>
                     <h5>
-                        Finding patterns in real data is troublesome as the normality condition does not hold for most of the measured dimensions. Existing algorithms generally fail to detect multi-variate outliers in non-normally distributed data.
-                        This research is towards the problem of solving multi-variate outlier detection problem in high dimensional space for non-uniform distribution of data set along the mean.
-                        It is based on the idea of modifying location and scatter estimates in Mahalanobis distance followed by Mahalnobis-chisquare measure votes at adapted significance level based on the heterogeneity of the data set.
-                        The mathematical foundation of the research work comes from areas such as dimensionality reduction using Principal component analysis, bootstrapping techniques to randomise sampling in the cluster to generate votes for each data
-                        and finally statistical confidence analysis of chi-square Mahalanobis data plot based on heterogeneity level of the data set.
-                    </h5>
-                <h3>Architecture</h3>
+                        Finding patterns in real data is troublesome as the normality condition does not hold for most of the measured dimensions. Most of the existing high dimensional <a href="https://en.wikipedia.org/wiki/Outlier">outlier </a>detection algorithms
+                        heavily rely on the assumption that data set is <a href="https://en.wikipedia.org/wiki/Normal_distribution">normally distributed</a>. This research is towards the problem of solving outlier detection problem in <a href="https://en.wikipedia.org/wiki/Clustering_high-dimensional_data">high dimensional</a> space for
+                        non-uniform distribution of data set along the mean.
+                        The work mainly focuses on development of a novel algorithm, called Voting Outliers based on Randomised Sampling (VOTERS), as a solution to the high dimensional outlier detection problem. This algorithm
+                        was developed using existing <a href="https://books.google.co.in/books?hl=en&lr=&id=0KuIJTAznLUC&oi=fnd&pg=PP1&dq=Statistical+and+Machine%E2%80%91Learning+Data+Mining&ots=khTNpiV6rV&sig=mIppMj-UAfcbj6JEt5GDzge0pI8">statistical and machine learning </a>principles and later on integrated with implemented in Java.
+                        VOTERS is based on the idea of modifying location and scatter estimates in <a href="https://en.wikipedia.org/wiki/Mahalanobis_distance">Mahalanobis distance </a>followed by <a href="https://en.wikipedia.org/wiki/Chi-squared_distribution">Mahalnobis-chisquare </a>measure votes at adapted significance level based on the heterogeneity of the data set.
+                        The mathematical foundation of the research work comes from areas such as dimensionality reduction using <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal component analysis</a>, <a href="https://en.wikipedia.org/wiki/Bootstrapping_(statistics)">bootstrapping </a> techniques to randomise sampling in the cluster to generate votes for each data
+                        and statistical confidence analysis of chi-square Mahalanobis data plot based on heterogeneity level of the data set.
 
-                <!--<div id="image_src">-->
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <img src="resources/project_files/voters/Voters.png" width="750px" height="100px">
-                            </div>
-                        </div>
+                        Outlier detection results were validated by comparing to artificially inserted known outliers and provided probable list of outliers. The performance of the proposed algorithm was found to be significantly better than other
+                        existing multivariate outlier detection algorithms. This algorithm was further improved by introducing an adaptive VOTERS characteristic based on sample size and uniformity using the parameters learned from tens of thousands
+                        of simulations.
+                    </h5>
+                <!--<h3>Architecture</h3>-->
+
+                <!--&lt;!&ndash;<div id="image_src">&ndash;&gt;-->
+                    <!--<div class="container">-->
+                        <!--<div class="row">-->
+                            <!--<div class="col-6">-->
+                                <!--<img src="resources/project_files/voters/Voters.png" width="750px" height="100px">-->
+                            <!--</div>-->
+                        <!--</div>-->
                 <!--</div>-->
                 </p>
 
