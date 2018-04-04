@@ -81,9 +81,10 @@ img {
     margin: 0px;
     padding: 10px 0px;
     background: #ffffff; /* white */
-    border-left: 1px solid #361212;
+    border-left: 2px solid #361212;
     height: 800px;
     border-right: 1px solid #361212;
+    border-bottom: 1px solid #361212
 }
 #slim_pane {
     float: left;
@@ -92,6 +93,7 @@ img {
     margin: 0px;
     padding: 10px 0px;
     border-left: 1px solid #361212;
+    border-bottom: 1px solid #361212
 }
 .section_title {
     margin: 5px auto 10px;
